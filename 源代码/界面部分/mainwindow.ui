@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>468</width>
+    <height>353</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>数独</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>251</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLineEdit" name="lineEdit_1"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEdit_2"/>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="lineEdit_3"/>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLineEdit" name="lineEdit_4"/>
+     </item>
+     <item row="0" column="4">
+      <widget class="QLineEdit" name="lineEdit_5"/>
+     </item>
+     <item row="0" column="5">
+      <widget class="QLineEdit" name="lineEdit_6"/>
+     </item>
+     <item row="0" column="6">
+      <widget class="QLineEdit" name="lineEdit_7"/>
+     </item>
+     <item row="0" column="7">
+      <widget class="QLineEdit" name="lineEdit_8"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLineEdit" name="lineEdit_9"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEdit_10"/>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLineEdit" name="lineEdit_11"/>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLineEdit" name="lineEdit_12"/>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLineEdit" name="lineEdit_13"/>
+     </item>
+     <item row="1" column="5">
+      <widget class="QLineEdit" name="lineEdit_14"/>
+     </item>
+     <item row="1" column="6">
+      <widget class="QLineEdit" name="lineEdit_15"/>
+     </item>
+     <item row="1" column="7">
+      <widget class="QLineEdit" name="lineEdit_16"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLineEdit" name="lineEdit_17"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEdit_18"/>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLineEdit" name="lineEdit_19"/>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLineEdit" name="lineEdit_20"/>
+     </item>
+     <item row="2" column="4">
+      <widget class="QLineEdit" name="lineEdit_21"/>
+     </item>
+     <item row="2" column="5">
+      <widget class="QLineEdit" name="lineEdit_22"/>
+     </item>
+     <item row="2" column="6">
+      <widget class="QLineEdit" name="lineEdit_23"/>
+     </item>
+     <item row="2" column="7">
+      <widget class="QLineEdit" name="lineEdit_24"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLineEdit" name="lineEdit_25"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lineEdit_26"/>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="lineEdit_27"/>
+     </item>
+     <item row="3" column="3">
+      <widget class="QLineEdit" name="lineEdit_28"/>
+     </item>
+     <item row="3" column="4">
+      <widget class="QLineEdit" name="lineEdit_29"/>
+     </item>
+     <item row="3" column="5">
+      <widget class="QLineEdit" name="lineEdit_30"/>
+     </item>
+     <item row="3" column="6">
+      <widget class="QLineEdit" name="lineEdit_31"/>
+     </item>
+     <item row="3" column="7">
+      <widget class="QLineEdit" name="lineEdit_32"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLineEdit" name="lineEdit_33"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lineEdit_34"/>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLineEdit" name="lineEdit_35"/>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLineEdit" name="lineEdit_36"/>
+     </item>
+     <item row="4" column="4">
+      <widget class="QLineEdit" name="lineEdit_37"/>
+     </item>
+     <item row="4" column="5">
+      <widget class="QLineEdit" name="lineEdit_38"/>
+     </item>
+     <item row="4" column="6">
+      <widget class="QLineEdit" name="lineEdit_39"/>
+     </item>
+     <item row="4" column="7">
+      <widget class="QLineEdit" name="lineEdit_40"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLineEdit" name="lineEdit_41"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="lineEdit_42"/>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLineEdit" name="lineEdit_43"/>
+     </item>
+     <item row="5" column="3">
+      <widget class="QLineEdit" name="lineEdit_44"/>
+     </item>
+     <item row="5" column="4">
+      <widget class="QLineEdit" name="lineEdit_45"/>
+     </item>
+     <item row="5" column="5">
+      <widget class="QLineEdit" name="lineEdit_46"/>
+     </item>
+     <item row="5" column="6">
+      <widget class="QLineEdit" name="lineEdit_47"/>
+     </item>
+     <item row="5" column="7">
+      <widget class="QLineEdit" name="lineEdit_48"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLineEdit" name="lineEdit_49"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="lineEdit_50"/>
+     </item>
+     <item row="6" column="2">
+      <widget class="QLineEdit" name="lineEdit_51"/>
+     </item>
+     <item row="6" column="3">
+      <widget class="QLineEdit" name="lineEdit_52"/>
+     </item>
+     <item row="6" column="4">
+      <widget class="QLineEdit" name="lineEdit_53"/>
+     </item>
+     <item row="6" column="5">
+      <widget class="QLineEdit" name="lineEdit_54"/>
+     </item>
+     <item row="6" column="6">
+      <widget class="QLineEdit" name="lineEdit_55"/>
+     </item>
+     <item row="6" column="7">
+      <widget class="QLineEdit" name="lineEdit_56"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLineEdit" name="lineEdit_57"/>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="lineEdit_58"/>
+     </item>
+     <item row="7" column="2">
+      <widget class="QLineEdit" name="lineEdit_59"/>
+     </item>
+     <item row="7" column="3">
+      <widget class="QLineEdit" name="lineEdit_60"/>
+     </item>
+     <item row="7" column="4">
+      <widget class="QLineEdit" name="lineEdit_61"/>
+     </item>
+     <item row="7" column="5">
+      <widget class="QLineEdit" name="lineEdit_62"/>
+     </item>
+     <item row="7" column="6">
+      <widget class="QLineEdit" name="lineEdit_63"/>
+     </item>
+     <item row="7" column="7">
+      <widget class="QLineEdit" name="lineEdit_64"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>130</y>
+      <width>161</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_generate">
+       <property name="text">
+        <string>生成</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_solve">
+       <property name="text">
+        <string>求解</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_judge">
+       <property name="text">
+        <string>判断</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_clear">
+       <property name="text">
+        <string>重置</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>10</y>
+      <width>161</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>选择提示的数量：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_1">
+       <property name="text">
+        <string>15</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>25</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="text">
+        <string>35</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>431</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>读取cnf文件进行求解（弹窗选择）</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>468</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
